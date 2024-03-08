@@ -17,6 +17,8 @@
 		8F234A982B98E116002E0F2F /* dataPersistanceMiniAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F234A972B98E116002E0F2F /* dataPersistanceMiniAppTests.swift */; };
 		8F234AA22B98E116002E0F2F /* dataPersistanceMiniAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F234AA12B98E116002E0F2F /* dataPersistanceMiniAppUITests.swift */; };
 		8F234AA42B98E116002E0F2F /* dataPersistanceMiniAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F234AA32B98E116002E0F2F /* dataPersistanceMiniAppUITestsLaunchTests.swift */; };
+		8F234AB22B98E2FC002E0F2F /* Wine+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F234AB02B98E2FC002E0F2F /* Wine+CoreDataClass.swift */; };
+		8F234AB32B98E2FC002E0F2F /* Wine+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F234AB12B98E2FC002E0F2F /* Wine+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		8F234A9D2B98E116002E0F2F /* dataPersistanceMiniAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dataPersistanceMiniAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F234AA12B98E116002E0F2F /* dataPersistanceMiniAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataPersistanceMiniAppUITests.swift; sourceTree = "<group>"; };
 		8F234AA32B98E116002E0F2F /* dataPersistanceMiniAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataPersistanceMiniAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8F234AB02B98E2FC002E0F2F /* Wine+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wine+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8F234AB12B98E2FC002E0F2F /* Wine+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wine+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		8F234A712B98E112002E0F2F = {
 			isa = PBXGroup;
 			children = (
+				8F234AB02B98E2FC002E0F2F /* Wine+CoreDataClass.swift */,
+				8F234AB12B98E2FC002E0F2F /* Wine+CoreDataProperties.swift */,
 				8F234A7C2B98E113002E0F2F /* dataPersistanceMiniApp */,
 				8F234A962B98E116002E0F2F /* dataPersistanceMiniAppTests */,
 				8F234AA02B98E116002E0F2F /* dataPersistanceMiniAppUITests */,
@@ -265,6 +271,8 @@
 				8F234A822B98E113002E0F2F /* ViewController.swift in Sources */,
 				8F234A7E2B98E113002E0F2F /* AppDelegate.swift in Sources */,
 				8F234A802B98E113002E0F2F /* SceneDelegate.swift in Sources */,
+				8F234AB32B98E2FC002E0F2F /* Wine+CoreDataProperties.swift in Sources */,
+				8F234AB22B98E2FC002E0F2F /* Wine+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
